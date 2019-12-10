@@ -1,0 +1,213 @@
+
+body{
+    background-color: #DFE5F1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+p{
+    font-size: 100px;
+    font-family: 'Playball', cursive;
+    text-align: center;
+    position: relative;
+    top: 2px;
+    color: black;
+    text-shadow: 0 0 6px rgb(27, 26, 26);
+}
+
+
+  .circle img {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    
+ }
+
+.sobre{
+    position: absolute;
+    left: 170px;
+    top: 50px;
+}
+h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+ 
+
+ ul {
+    list-style-type: none;
+    
+    }
+
+ul li {
+    position: relative;
+    left: -20px;
+    }
+
+li ul {
+        position: absolute;
+        left: 129px;
+        display: none;
+}
+
+.sub{
+    top: -20px;
+    left: 155px;
+    width: 110%;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    
+    
+}
+
+li:hover ul { display: block; }
+
+
+  
+
+  
+  .vertical-menu a.active {
+    
+    background-color: black;
+    color: white;
+  }
+
+main {
+    
+    color: bisque;
+    
+    position: absolute;
+    left: 23%;
+    top: 0%;
+    height: 150%;
+    width: 60%;
+}
+
+.rotas{
+    position: absolute;
+    top: -15%;
+    width: 100%;
+}
+
+.lugar{
+    position: absolute;
+    background: white;
+    top: 35%;
+    width: 100%;
+    height: 190%;
+}
+
+.lugar2{
+    position: absolute;
+    background: white;
+    top: 35%;
+    width: 100%;
+    height: 90%;
+}
+
+
+.lugar3{
+    position: absolute;
+    top: 10%;
+    width: 60%;
+	height: 100%;
+    left: 15%;
+    margin: 3 auto;
+}
+
+
+
+
+.ponti{
+    position: absolute;
+    top: 0;
+    left: 13%;
+    width: -50%;
+    height: -50%;
+}
+
+.destino{
+    position: absolute;
+    top: 3px;
+    left: 13%;
+    width: -50%;
+    height: -50%;
+}
+
+
+
+
+#divBusca{
+    position: relative;
+    top: -37px;
+    left: 190px;
+    background-color:#E0EEEE;
+    border:solid 2px #F0F8FF;
+    border-radius:10px;
+    width:466px;
+    height:32px;
+  }
+
+  #divBusca2{
+    position: relative;
+    top: -87px;
+    left: 190px;
+    background-color:#E0EEEE;
+    border:solid 4px #F0F8FF;
+    border-radius:10px;
+    width:466px;
+    height:62px;
+  }
+   
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px; 
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:391px;
+  }
+
+  #btnBusca{
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:70px;
+    font-weight:bold;
+    background:#F0F8FF;
+    color: white;
+  }
+
+  #btnBusca2{
+    border:none;
+    float:left;
+    position: relative;
+    top: -56%;
+    height:64px;
+    border-radius:0 7px 7px 0;
+    width:70px;
+    font-weight:bold;
+    background:#F0F8FF;
+    color: white;
+  }
+   
+   
+  #divBusca img{
+    float:left;
+  }
+
+  .iniciar{
+    width:466px;
+    height:62px;
+    
+}
+  
